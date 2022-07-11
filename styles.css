@@ -10,7 +10,7 @@
     --very-dark-gray: hsl(0, 0%, 41%);
 
     --font-size : 15px
-    --font: 'Alata', sans-serif;
+    --primary-font: 'Alata', sans-serif;
     --sec-font: 'Josefin Sans', sans-serif;
 }
 
@@ -75,7 +75,7 @@ header{
 
 .navbar nav a{
     color: var(--main-bg-color);
-    font-family: var(--sec-font);
+    font-family: var(--primary-font);
     font-size: var(--font-size);
     text-decoration: none;
     transition: 0.6s ease-in-out;
@@ -134,7 +134,7 @@ header h1{
 
 .menu-content-container nav a{
     color: var(--main-bg-color);
-    font-family: var(--sec-font);
+    font-family: var(--primary-font);
     font-size: 1.6rem;
     text-decoration: none;
     font-weight: 300;
@@ -165,7 +165,7 @@ header h1{
 .interactive-content p{
     color: var(--very-dark-gray);
     font-size: var(--font-size);
-    font-family: var(--font);
+    font-family: var(--primary-font);
     font-weight: 400;
     width: 85%;
     margin: 0 auto;
@@ -223,8 +223,8 @@ header h1{
     color: var(--main-bg-color);
     text-transform: uppercase;
     z-index: 1;
-    bottom: 1rem;
-    left: 1rem;
+    bottom: 2rem;
+    left: 2rem;
     width: 8rem;
 }
 
@@ -233,7 +233,7 @@ header h1{
     outline: none;
     border: 0.15rem solid var(--footer-bg-color);
     text-transform: uppercase;
-    font-family: var(--font);
+    font-family: var(--primary-font);
     font-weight: 400;
     font-size: 1rem;
     width: 8rem;
@@ -274,7 +274,7 @@ footer > nav{
 
 footer > nav a {
     color: var(--main-bg-color);
-    font-family: var(--sec-font);
+    font-family: var(--primary-font);
     font-size: var(--font-size);
     padding-bottom: 1.5em;
     text-decoration: none;
@@ -306,14 +306,14 @@ footer p{
     color: var(--dark-gray);
     font-size: var(--font-size);
     margin-top: 0.5em;
-    font-family: var(--sec-font);
+    font-family: var(--primary-font);
 
 }
 
 .frontmentor-content{
     margin-top: 4rem;
     color: var(--main-bg-color);
-    font-family: var(--sec-font);
+    font-family: var(--primary-font);
 }
 
 .frontmentor-content a{
